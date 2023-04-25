@@ -1,0 +1,161 @@
+body {
+    background-color: #121711;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+#hero-section{
+    background-image: url(./Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+header {
+    font-family: 'Courier Prime', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+header h1 {
+    color: #FF5400;
+    font-weight: 700;
+    font-size: 7rem;
+    margin: 0;
+    justify-content: center;
+}
+header h2 {
+    font-size: 2rem;
+    color: #7a696f;
+    margin: 0;
+}
+
+div#cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    margin: 0;
+}
+.social-btn .svg-inline--fa {
+    height: 2em;
+    padding: 0px 10px;
+}
+
+a, a:hover, a:visited, a:active {
+    color: #D16014;
+    text-decoration: none;
+    height: 2em;
+}
+
+#contact-btn button {
+	background-color:#380415;
+	border-radius:42px;
+	border:3px solid #79380d;
+	display:inline-block;
+	cursor:pointer;
+	color:#79380d;
+	font-family: 'Courier Prime', monospace;
+	font-size:18px;
+	padding:10px 10px;
+	text-decoration:none;
+}
+#contact-btn button:hover {
+	background-color:#380415;
+    color: #D16014;
+    border-color: #D16014;
+}
+#contact-btn button:active {
+	position:relative;
+	top:1px;
+}
+
+#blurb{
+    font-family: 'Courier Prime', monospace;
+    font-size: 1.5rem;
+    color: #7a696f;
+    margin: 0;
+    text-align: center;
+}
+
+#about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: 121711;
+}
+
+#about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#profile-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    width: 75%;
+    height: 75%;
+}
+
+div#about-txt {
+    font-family: 'Courier Prime', monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-txt h2 {
+    font-size: 3rem;
+    color: #FF5400;
+    margin: 0;
+}
+
+#about-txt p {
+    font-size: 1.5rem;
+    color: #7a696f;
+    margin: 0;
+    text-align: center;
+}
+
+#jump {
+    color: #79380d;
+    background: transparent;
+    border: none;
+}
+#jump.up {
+    position: absolute;
+    top: 1056px;
+}
+#jump.down {
+    position: absolute;
+    bottom: 100px;
+}
+#jump .svg-inline--fa {
+    height:4em;
+}

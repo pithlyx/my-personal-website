@@ -1,15 +1,65 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <h1>Welcome To My Website</h1>
-        <script src="./index.js" async defer></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Add your CSS and JS files here -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <script src="https://kit.fontawesome.com/57b84b38c7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="hero-section" class="slide active">
+            <!-- Hero section -->
+            <header>
+                <h1>Cody Roberts</h1>
+                <h2>&lt P i t h l y x &gt</h2>
+            </header>
+            <div id="cta">
+                <div id="socials">
+                    <a id="github" class="social-btn" href="https://github.com/pithlyx" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i></a>
+                    <a id="linkedin" class="social-btn" href="https://www.linkedin.com/in/cody-roberts-2abb6a270/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i></a>
+                    <a id="stackoverflow" class="social-btn" href="https://stackoverflow.com/users/21727697/cody-roberts" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-stack-overflow"></i></a>
+                </div>
+                <div id="contact-btn">
+                <button href="#" id="resume">Resume <i class="fa-solid fa-file"></i></button>
+                <button id="contact">Contact <i class="fa-solid fa-address-card"></i></button>
+                </div>
+            </div>
+            <p id="blurb"> I am an aspiring software engineer from Colorado
+                <br>
+                with a passion for discovering and designing solutions to solve problems.</p>
+            <button id="jump" class="down" onclick="nextSlide();"><i class="fa-solid fa-circle-down"></i></button>
+        </div>
+        
+        <div id="about" class="slide">
+            <button id="jump" class="up" onclick="previousSlide();"><i class="fa-solid fa-circle-up"></i></button> <br>
+            <div id="about-container">
+                <div id="profile-img">
+                    <img src="./Images/profile-picture.jpg" alt="" class="profile-img">
+                </div>
+                <div id="about-txt">
+                    <h2>About Me</h2>
+                    <p>Over my years of experimenting with different languages and frameworks, I have learned web development,
+                    game development, and discovered a love for UI/UX design, accessability and of course learning.
+                    Driven by my passion for programming I take every opportunity to tackle problems and find solutions 
+                    without sacrificing ease of use or accessability. </p>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+</body>
 </html>
